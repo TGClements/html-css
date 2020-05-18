@@ -3,8 +3,13 @@ body {
 }
 
 #mainContent {
-	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+}
+
+.carousel {
+  width:600px;
+  margin-bottom: 15px;
 }
