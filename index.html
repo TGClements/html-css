@@ -11,14 +11,31 @@
 <body>
 
 	<!-- JavaScript Sources -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<!-- JavaScript Sources -->
 
-	<div id="mainContent">
-		<center>
-			<h1>Tyler Clements</h1>
-			<br />
-			<p>Hey guys, I'm Tyler! I've been programming since high-school and love everything about computers. I've built my own high-end gaming PC and obviously love to play games too!</p>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<span class="navbar-brand mb-0 h1">Tyler Clements</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="index.html">About Me</a>
+				<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="card" id="mainContent">
+		<div class="card-body">
+			<center>
+				<h1>About Me</h1>
+				<br />
+				<p>Hey guys, I'm Tyler! I've been programming since high-school and love everything about computers. I've built my own high-end gaming PC and obviously love to play games too!</p>
 			</center>
 			<br />
 			<ul>My hobbies include:
@@ -31,6 +48,7 @@
 			<center>
 				<img src="./assets/ProfilePic.jpg" alt="Myself">
 			</center>
+		</div>
 	</div>
     
 </body>
