@@ -21,8 +21,33 @@
 	<div id="mainContent">
 		<center>
 			<h2>Contact Me</h2>
+			<p>Please fill out the following details about yourself.</p>
+			<br />
+		
+			<form action="">
+				<label for="fname"><span id="reqAst">*</span>First Name:</label><br />
+				<input type="text" id="fname" placeholder="John" required>
+				<br /><br />
+				<label for="lname"><span id="reqAst">*</span>Last Name:</label><br />
+				<input type="text" id="lname" placeholder="Doe" required>
+				<br /><br />
+				<label for="msg"><span id="reqAst">*</span>Message:</label><br />
+				<textarea id="msg" rows="5" placeholder="Your message here." required></textarea>
+				<br /><br />
+				<label for="phnum">Phone Number:</label><br />
+				<input type="tel" id="phnum" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+				<br />
+				<small>Format: 123-456-7890</small>
+				
+				<br /><br />
+				<input type="submit" value="Submit">
+			</form>
 		</center>
 	</div>
+	
+	<footer>
+		<center><p>Author: Tyler Clements, 2020</p></center>
+	</footer>
     
 </body>
 </html>

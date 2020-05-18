@@ -1,4 +1,6 @@
 body {
+	animation-name: backgroundanim;
+	animation-duration: 5s;
 	background-color: #c0c0c0 !important;
 }
 
@@ -6,7 +8,6 @@ body {
 	margin-left: 20vw;
 	margin-right: 20vw;
 	margin-top: 5vh;
-	margin-bottom: 5vh;
 	background-color: white;
 	border-radius: 15px;
 	padding-top: 5px;
@@ -51,4 +52,29 @@ hr {
 mark {
 	background-color: #85eda1;
 	
+}
+
+#reqAst {
+	color: red;
+}
+
+footer {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-top: 1vh;
+	margin-bottom: 5vh;
+	background-color: white;
+	border-radius: 15px;
+	padding: 3px;
+	
+}
+
+@keyframes backgroundanim {
+	from {background-color: white;}
+	to {background-color: #c0c0c0;}
+}
+
+#jal, #cay, #hab {
+	max-height: 800px;
+	max-width: 640px;
 }
