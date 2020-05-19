@@ -30,11 +30,15 @@ body {
 
 #navbar {
 	list-style-type: none;
-	margin: 0;
+	margin-left: 20vw;
+	margin-right: 20vw;
 	padding: 0;
 	overflow: hidden;
 	background-color: white;
 	border-radius: 5px;
+	box-shadow: 0 6px 20px 0 black;
+	animation-name: shadowanim;
+	animation-duration: 1s;
 }
 
 #navbar > li {
@@ -75,7 +79,7 @@ mark {
 footer {
 	margin-left: 20vw;
 	margin-right: 20vw;
-	margin-top: 1vh;
+	margin-top: 5vh;
 	margin-bottom: 5vh;
 	background-color: white;
 	border-radius: 15px;
