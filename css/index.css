@@ -67,11 +67,6 @@ hr {
 	width: 95%;
 }
 
-mark {
-	background-color: #85eda1;
-	
-}
-
 #reqAst {
 	color: red;
 }
@@ -92,6 +87,13 @@ footer {
 #jal, #cay, #hab {
 	max-height: 800px;
 	max-width: 640px;
+}
+
+#self {
+	width: 60%;
+	height: auto;
+	max-width: 300px;
+	max-height: 300px;
 }
 
 ul {
