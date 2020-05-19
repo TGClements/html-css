@@ -35,7 +35,7 @@ body {
 	padding: 0;
 	overflow: hidden;
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 15px;
 	box-shadow: 0 0px 20px 0 black;
 	animation-name: shadowanim;
 	animation-duration: 1s;
@@ -99,4 +99,13 @@ footer {
 ul {
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+p, li, figcaption, span, label, small, input {
+	font-family: 'Roboto', sans-serif;
 }
