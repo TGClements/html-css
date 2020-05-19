@@ -1,6 +1,16 @@
+@keyframes backgroundanim {
+	from {background-color: white;}
+	to {background-color: #c0c0c0;}
+}
+
+@keyframes shadowanim {
+	from {box-shadow: 0 0 0 0 black;}
+	to {box-shadow: 0 6px 20px 0 black;}
+}
+
 body {
 	animation-name: backgroundanim;
-	animation-duration: 5s;
+	animation-duration: 1s;
 	background-color: #c0c0c0 !important;
 }
 
@@ -12,6 +22,10 @@ body {
 	border-radius: 15px;
 	padding-top: 5px;
 	padding-bottom: 20px;
+	box-shadow: 0 6px 20px 0 black;
+	animation-name: shadowanim;
+	animation-duration: 1s;
+
 }
 
 #navbar {
@@ -66,15 +80,17 @@ footer {
 	background-color: white;
 	border-radius: 15px;
 	padding: 3px;
-	
-}
-
-@keyframes backgroundanim {
-	from {background-color: white;}
-	to {background-color: #c0c0c0;}
+	box-shadow: 0 6px 20px 0 black;
+	animation-name: shadowanim;
+	animation-duration: 1s;
 }
 
 #jal, #cay, #hab {
 	max-height: 800px;
 	max-width: 640px;
+}
+
+ul {
+	margin-left: 25%;
+	margin-right: 25%;
 }
