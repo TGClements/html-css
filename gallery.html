@@ -4,8 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+	
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+	
+	<style>
+		img {
+			width: 75%;
+		}	
+	</style>
 </head>
 <body>
+	
+	<!-- Navbar -->
+	<nav>
+		<ul id="navbar">
+			<li><a href="index.html" >About Me</a></li>
+			<li><a class="active" href="#">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav> <!-- Navbar -->
+	
+	<!-- Main content card -->
+	<div id="mainContent">
+		<br />
+		<center>
+			<h2 id="top">Pictures of My Pepper Plants</h2>
+			<h5>(All images taken from my <a href="https://www.instagram.com/badgerspepperproducts/" target="_blank">instagram</a>)</h5>
+			<hr />
+			<div id="gallery">
+				<figure id="jal">
+					<h3>Jalapeno</h3>
+					<img src="./assets/Jalapeno.jpg" alt="...">
+					<figcaption>Jalapenos are some of the least hot peppers, but they grow abundantly!</figcaption>
+				</figure>
+				
+				<hr />
+				
+				<figure id="cay">
+					<h3>Cayenne</h3>
+					<img src="./assets/Cayenne.jpg" alt="...">
+					<figcaption>Some Cayenne peppers curl, like this one!</figcaption>
+				</figure>
+
+				<hr />
+
+				<figure id="hab">
+					<h3>Habanero</h3>
+					<img src="./assets/Habanero.jpg" alt="...">
+					<figcaption>On the Scoville scale, Habaneros are the last of the "hot" peppers; any pepper hotter than Habanero is a "superhot" pepper. This one is almost ripe!</figcaption>
+				</figure>
+
+				<hr />
+
+				<figure>
+					<h3>Carolina Reaper</h3>
+					<img src="./assets/CarolinaReaper.jpg" alt="...">
+					<figcaption>The Carolina Reaper currently holds the Guiness World Record for "Hottest Pepper in the World". These plants are still maturing, and will start producing peppers in a few months.</figcaption>
+				</figure>
+			</div>
+		</center>
+	</div> <!-- Main content card -->
     
+	<footer>
+		<center><p>Author: Tyler Clements, 2020</p></center>
+	</footer>
+	
 </body>
 </html>
